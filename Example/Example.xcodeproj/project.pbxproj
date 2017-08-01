@@ -11,10 +11,10 @@
 		4517227E1B82BAAA00D88E34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4517227D1B82BAAA00D88E34 /* ViewController.swift */; };
 		451722811B82BAAA00D88E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4517227F1B82BAAA00D88E34 /* Main.storyboard */; };
 		451722831B82BAAA00D88E34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451722821B82BAAA00D88E34 /* Images.xcassets */; };
-		451722861B82BAAA00D88E34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 451722841B82BAAA00D88E34 /* LaunchScreen.xib */; };
 		451722921B82BAAA00D88E34 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451722911B82BAAA00D88E34 /* ExampleTests.swift */; };
 		45C5247C1C1213DD00510CF7 /* CalculatorKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C524791C1213D700510CF7 /* CalculatorKeyboard.framework */; };
 		45C5247D1C1213DD00510CF7 /* CalculatorKeyboard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45C524791C1213D700510CF7 /* CalculatorKeyboard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		873D3D461F310EED00791A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873D3D441F310EED00791A68 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,11 +69,11 @@
 		4517227D1B82BAAA00D88E34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		451722801B82BAAA00D88E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		451722821B82BAAA00D88E34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		451722851B82BAAA00D88E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4517228B1B82BAAA00D88E34 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		451722901B82BAAA00D88E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		451722911B82BAAA00D88E34 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
 		45C524731C1213D600510CF7 /* CalculatorKeyboard.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CalculatorKeyboard.xcodeproj; path = ../CalculatorKeyboard.xcodeproj; sourceTree = "<group>"; };
+		873D3D451F310EED00791A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 				4517227D1B82BAAA00D88E34 /* ViewController.swift */,
 				4517227F1B82BAAA00D88E34 /* Main.storyboard */,
 				451722821B82BAAA00D88E34 /* Images.xcassets */,
-				451722841B82BAAA00D88E34 /* LaunchScreen.xib */,
+				873D3D441F310EED00791A68 /* LaunchScreen.storyboard */,
 				451722791B82BAAA00D88E34 /* Supporting Files */,
 			);
 			path = Example;
@@ -213,10 +213,12 @@
 				TargetAttributes = {
 					451722751B82BAAA00D88E34 = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = K7ADE5W84V;
+						DevelopmentTeam = 589NL5HCB6;
+						LastSwiftMigration = 0830;
 					};
 					4517228A1B82BAAA00D88E34 = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0830;
 						TestTargetID = 451722751B82BAAA00D88E34;
 					};
 				};
@@ -269,7 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				451722811B82BAAA00D88E34 /* Main.storyboard in Resources */,
-				451722861B82BAAA00D88E34 /* LaunchScreen.xib in Resources */,
+				873D3D461F310EED00791A68 /* LaunchScreen.storyboard in Resources */,
 				451722831B82BAAA00D88E34 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,12 +327,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		451722841B82BAAA00D88E34 /* LaunchScreen.xib */ = {
+		873D3D441F310EED00791A68 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				451722851B82BAAA00D88E34 /* Base */,
+				873D3D451F310EED00791A68 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -424,6 +426,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 589NL5HCB6;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
@@ -431,6 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.reefactor.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -440,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 589NL5HCB6;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
@@ -447,6 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.reefactor.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -463,6 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.reefactor.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Debug;
@@ -476,6 +483,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.reefactor.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Release;

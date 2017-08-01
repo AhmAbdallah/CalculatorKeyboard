@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uz6-o7-dI4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="WlI-29-XsE">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Reefactor, Inc. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="d1J-z4-XWt">
+                                <rect key="frame" x="20" y="626" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Example" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="m1Z-e0-TYF">
+                                <rect key="frame" x="20" y="202" width="335" height="43"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="d1J-z4-XWt" firstAttribute="leading" secondItem="Uz6-o7-dI4" secondAttribute="leading" constant="20" symbolic="YES" id="4fo-16-I0I"/>
+                            <constraint firstAttribute="centerX" secondItem="d1J-z4-XWt" secondAttribute="centerX" id="5fz-Ov-HCO"/>
+                            <constraint firstItem="WlI-29-XsE" firstAttribute="top" secondItem="Uz6-o7-dI4" secondAttribute="top" id="GLf-r7-geU"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="WlI-29-XsE" secondAttribute="bottom" id="RCG-ml-1Qw"/>
+                            <constraint firstAttribute="bottom" secondItem="d1J-z4-XWt" secondAttribute="bottom" constant="20" id="Rk0-ke-k1q"/>
+                            <constraint firstAttribute="centerX" secondItem="m1Z-e0-TYF" secondAttribute="centerX" id="X9l-yP-a2n"/>
+                            <constraint firstItem="m1Z-e0-TYF" firstAttribute="centerY" secondItem="Uz6-o7-dI4" secondAttribute="bottom" multiplier="1/3" constant="1" id="ZU2-QF-L30"/>
+                            <constraint firstAttribute="trailing" secondItem="WlI-29-XsE" secondAttribute="trailing" id="e8p-GN-qWr"/>
+                            <constraint firstItem="WlI-29-XsE" firstAttribute="leading" secondItem="Uz6-o7-dI4" secondAttribute="leading" id="kNJ-it-hia"/>
+                            <constraint firstItem="m1Z-e0-TYF" firstAttribute="leading" secondItem="Uz6-o7-dI4" secondAttribute="leading" constant="20" symbolic="YES" id="vdr-Y4-46a"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash" width="640" height="1136"/>
+    </resources>
+</document>
